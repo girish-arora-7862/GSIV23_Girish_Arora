@@ -1,0 +1,38 @@
+.md-wrapper {
+  display: flex;
+  margin: 18px;
+  gap: 18px;
+}
+
+.md-image-wrapper {
+  width: 20%;
+  min-height: 300px;
+}
+
+.md-img {
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.md-right-pane {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.md-title-wrapper {
+  display: flex;
+  gap: 18px;
+}
+
+.md-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.md-rating {
+  font-size: 24px;
+  color: grey;
+}
