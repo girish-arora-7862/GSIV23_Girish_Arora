@@ -13,7 +13,7 @@ export const dataSlice = createSlice({
   initialState,
   reducers: {
     clearSearchMovie: (state) => {
-      state.searchMovieData.results = [];
+      state.searchMovieData = { results: [] };
     },
   },
   extraReducers: (builder) => {

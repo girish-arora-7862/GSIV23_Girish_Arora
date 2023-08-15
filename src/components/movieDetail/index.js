@@ -15,10 +15,11 @@ const MovieDetail = () => {
     dispatch(fetchMovieById(movieId));
   }, []);
 
+  console.log({ data });
   return (
     <div className="movie-detail">
       <Header title={"Movie Details"} />
-      {isLoading ? (
+      {isLoading || !data ? (
         <div className="list-page-loader">Loading...</div>
       ) : (
         <div className="md-wrapper">

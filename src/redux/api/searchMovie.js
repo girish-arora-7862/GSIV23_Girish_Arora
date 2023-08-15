@@ -10,7 +10,6 @@ export const searchMovie = createAsyncThunk("searchMovie", async (value) => {
       params: {
         query: value,
         page: 1,
-        include_adult: true,
       },
     }
   );
